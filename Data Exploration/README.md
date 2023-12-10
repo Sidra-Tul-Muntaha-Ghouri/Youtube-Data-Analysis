@@ -1,4 +1,39 @@
-
+```SQL
+/* Selecting Top 10 Rows From The Dataset */
+SELECT TOP (10)
+      rank
+      ,Youtuber
+      ,subscribers
+      ,video_views
+      ,category
+      ,Title
+      ,uploads
+      ,Country
+      ,Abbreviation
+      ,channel_type
+      ,video_views_rank
+      ,country_rank
+      ,channel_type_rank
+      ,video_views_for_the_last_30_days
+      ,lowest_monthly_earnings
+      ,highest_monthly_earnings
+      ,lowest_yearly_earnings
+      ,highest_yearly_earnings
+      ,subscribers_for_last_30_days
+      ,created_year
+      ,created_month
+      ,created_date
+      ,Gross_tertiary_education_enrollment
+      ,Population
+      ,Unemployment_rate
+      ,Urban_population
+      ,Latitude
+      ,Longitude
+FROM
+      youtube
+  
+}
+```
 
 | Rank | Youtuber                          | Subscribers | Video Views | Category           | Title                    | Uploads | Country          | Abbreviation | Channel Type    | Video Views Rank | Country Rank | Channel Type Rank | Video Views for the Last 30 Days | Lowest Monthly Earnings | Highest Monthly Earnings | Lowest Yearly Earnings | Highest Yearly Earnings | Subscribers for Last 30 Days | Created Year | Created Month | Created Date | Gross Tertiary Education Enrollment | Population | Unemployment Rate | Urban Population | Latitude             | Longitude            |
 |------|-----------------------------------|-------------|-------------|--------------------|--------------------------|---------|------------------|--------------|-----------------|------------------|--------------|-------------------|----------------------------------|-------------------------|--------------------------|------------------------|------------------------|-------------------------------|--------------|---------------|--------------|---------------------------------------|------------|---------------------|------------------|----------------------|----------------------|
