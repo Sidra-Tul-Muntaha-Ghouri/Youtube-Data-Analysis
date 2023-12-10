@@ -31,8 +31,7 @@ SELECT TOP (10)
       ,Longitude
 FROM
       youtube
-  
-}
+
 ```
 
 | Rank | Youtuber                          | Subscribers | Video Views | Category           | Title                    | Uploads | Country          | Abbreviation | Channel Type    | Video Views Rank | Country Rank | Channel Type Rank | Video Views for the Last 30 Days | Lowest Monthly Earnings | Highest Monthly Earnings | Lowest Yearly Earnings | Highest Yearly Earnings | Subscribers for Last 30 Days | Created Year | Created Month | Created Date | Gross Tertiary Education Enrollment | Population | Unemployment Rate | Urban Population | Latitude             | Longitude            |
